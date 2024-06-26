@@ -1,0 +1,2 @@
+﻿colorama==0.4.4
+tiktoklive==0.7.0
