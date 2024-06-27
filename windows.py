@@ -112,7 +112,7 @@ async def start_voting():
             chosen_command = next(cmd for cmd in command_order
                                   if cmd in top_commands)
         else:
-            chosen_command =  top_commands[0]
+            chosen_command =  None
 
         # just enable if a tie causes a problem
         #chosen_command =  top_commands[0]
